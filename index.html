@@ -13,7 +13,7 @@
         }
 
         body {
-            background-color: #a9c1ed;
+            background-color: #ffffff;
         }
 
         a {
@@ -21,36 +21,44 @@
             color: #222222;
         }
 
-        li {
-            list-style: none;
-        }
 
         .box {
-            width: 200px;
-            margin: 10px auto 0;
+            width: 400px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #daddda;
         }
+
 
         .box h3 {
+            height: 50px;
+            line-height: 50px;
             font-weight: 500;
             font-size: 30px;
-            margin: 20px 0;
+            border-bottom: 1px solid #daddda;
+            text-align: center;
         }
 
-        .box ul {
-            margin-left: 20px;
+
+        .box ol {
+            padding-left: 40px;
         }
+
 
         .box a {
-            display: inline-block;
-            margin: 10px;
+            display: block;
+            margin: 10px 0;
         }
 
-        .box li:hover {
-            background-color: orange;
+        .box a:hover {
+            color: #e67d14;
         }
 
-        .github a:hover {
-            color: white;
+        #github {
+            text-align: center;
+            ;
         }
     </style>
 </head>
@@ -58,16 +66,21 @@
 <body>
     <div class="box">
         <h3>案例展示</h3>
-        <ul>
-            <li><a href="案例/视频快报.html">视频快报</a></li>
-            <li><a href="案例/小米侧边栏改进版.html">小米侧边栏改进版</a></li>
-            <li><a href="案例/小米产品展示盒子.html">小米产品展示盒子</a></li>
-            <li><a href="案例/小米产品盒子2.html">小米产品盒子2</a></li>
-            <li><a href="案例/登录界面.html">登录界面</a></li>
-        </ul>
-        <div class="github">
-            <a href="https://github.com/brokyz/Front-End-Learning">前往项目</a>
-        </div>
+        <ol>
+            <li><a href="案例/表单.html" target="_blank">视频快报</a></li>
+            <li><a href="案例/小米侧边栏简洁版.html" target="_blank">小米侧边栏简洁版</a></li>
+            <li><a href="案例/小米侧边栏改进版.html" target="_blank">小米侧边栏改进版</a></li>
+            <li><a href="案例/新浪导航栏.html" target="_blank">新浪导航栏</a></li>
+            <li><a href="案例/视频快报.html" target="_blank">视频快报</a></li>
+            <li><a href="案例/小米产品盒子.html" target="_blank">小米产品盒子</a></li>
+            <li><a href="案例/小米产品盒子改进版.html" target="_blank">小米产品盒子改进版</a></li>
+            <li><a href="案例/登录界面.html" target="_blank">登录界面</a></li>
+        </ol>
+    </div>
+
+    <div class="box" id="github">
+        <a href="https://github.com/brokyz/Front-End-Learning">前往项目</a>
+    </div>
 </body>
 
 </html>
