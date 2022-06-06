@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子阴影</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background-color: bisque;                     
+        }
+        .box:hover {
+            box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, .3);  
+        }
+        .box p {
+            width: 100%;
+            padding-left: 80px;
+            line-height: 300px;
+            font-size: 30px;
+            text-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>文字阴影</p>
+    </div>
+</body>
+</html>
