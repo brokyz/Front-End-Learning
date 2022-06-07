@@ -277,7 +277,8 @@ a {
 }
 
 .footer {
-    height: 415px;
+    width: 100px;
+    height: 300px;
     background-color: #ffffff;
 }
 
