@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三角的巧妙运用</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box {
+            width: 160px;
+            height: 30px;
+            margin: 100px auto;
+            /* background-color: pink; */
+            overflow: hidden;
+            border: 1px solid red;
+        }
+        .red {
+            float: left;
+            position: relative;
+            width: 80px;
+            height: 30px;
+            background-color: red;
+            line-height: 30px;
+        }
+        .tri{
+            position: absolute;
+            right: -20px;
+            top: 0px;
+            width: 0;
+            height: 0;
+            border-left: 20px solid red;
+            border-bottom: 30px solid transparent;
+        }
+        .red .price {
+            text-align: center;
+            font-weight: 600;
+            color: white;
+        }
+        .pre-price {
+            /* float: left; */
+            text-align: center;
+            font-size: 12px;
+            text-decoration: line-through;
+            margin-top: 10px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="red">
+            <p class="price">￥1650</p>
+            <div class="tri"></div>
+        </div>
+        <p class="pre-price">￥5650</p>
+    </div>
+</body>
+</html>

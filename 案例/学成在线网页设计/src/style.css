@@ -100,18 +100,15 @@ a {
     float: right;
     height: 42px;
     margin-right: 30px;
+    line-height: 42px;
     font-size: 14px;
     color: #666;
 }
 
 .usr img {
-    margin-top: 5px;
+    vertical-align: middle;
 }
 
-.usr span {
-    position: relative;
-    bottom: 7px;
-}
 
 .banner {
     height: 421px;
