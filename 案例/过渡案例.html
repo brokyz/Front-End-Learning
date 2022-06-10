@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>过渡案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .bar {
+            width: 150px;
+            height: 10px;
+            margin: 0 auto;
+            border: 1px solid red;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .bar_in {
+            width: 50%;
+            height: 100%;
+            background-color: red;
+            transition: all 0.5s;
+            border-radius: 5px;
+        }
+
+        .bar_in:hover {
+            width: 100%;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            margin: auto;
+            transition: all 0.2s linear;
+            border-radius: 10px;
+        }
+
+        .box:hover {
+            box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+            transform: translate3d(0, -2px, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>进度条案例</h3>
+    <div class="bar">
+        <div class="bar_in"></div>
+    </div>
+
+    <h3>小米商品过渡动画</h3>
+    <div class="box"></div>
+</body>
+
+</html>
