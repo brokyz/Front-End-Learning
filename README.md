@@ -7,6 +7,6 @@
     用 于 记 录 前 端 学 习 案 例
   </p> 
   <p align="center">
-    <a style="text-decoration:none" href="https://brokyz.github.io/Front-End-Learning/" target="_blank">案例演示站点</a>
+    <a style="text-decoration:none" href="https://brokyz.github.io/MyCSS/" target="_blank">案例演示站点</a>
    </p>
 </div>
