@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0%;
+      padding: 0%;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(200deg, #e3c5eb, #a9c1ed);
+      overflow: hidden;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      background-color: #fff;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 350px;
+      height: 500px;
+      box-shadow: 0 5px 20px rgb(142, 140, 140);
+    }
+
+    .container .name {
+      font-size: 26px;
+      margin-top: 20px;
+    }
+
+    .container .tit {
+      font-size: 20px;
+      margin: 30px auto 70px auto;
+    }
+
+    .container input {
+      width: 280px;
+      height: 30px;
+      text-indent: 8px;
+      border-color: #e3e5ee;
+      border-style: solid;
+      border-radius: 6px;
+      border-width: 1px;
+      border-bottom: 1px solid #ddd;
+      height: calc(2.5rem + 2px);
+      outline: hidden;
+      margin: 10px auto;
+    }
+
+    .container button {
+      width: 280px;
+      height: 40px;
+      margin: 35px auto 40px auto;
+      border: none;
+      background: linear-gradient(-200deg, #fac0e7, #aac2ee);
+      color: #fff;
+      font-weight: bold;
+      letter-spacing: 8px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .container button:hover {
+      background: linear-gradient(-200deg, #aac2ee, #fac0e7);
+      background-position-x: -280px;
+    }
+
+    .container span {
+      font-size: 14px;
+    }
+
+    .container a {
+      color: plum;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="name">在线挂号系统</div>
+    <div class="tit">登录</div>
+    <table>
+      <input type="text" placeholder="账号" />
+      <input type="password" placeholder="密码" />
+      <button type="submit">登录</button>
+    </table>
+    <!-- <span>还没有账号？<a href="#">去注册</a></span> -->
+  </div>
+
+</body>
+
+</html>

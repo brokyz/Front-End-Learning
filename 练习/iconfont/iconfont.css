@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1656671263303') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gouwuchekong:before {
+  content: "\f0179";
+}
+
+.icon-sousuo:before {
+  content: "\eafe";
+}
+
+.icon-Arrow-down:before {
+  content: "\e60f";
+}
+
+.icon-Chevron-Right:before {
+  content: "\e610";
+}
+
